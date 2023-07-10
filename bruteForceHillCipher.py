@@ -61,8 +61,8 @@ def rank_keys(ciphertext, num_results):
     results = sorted(scores, key=lambda x: x[2], reverse=True)[:num_results]
     return results
 
-
-ciphertext = "aznrkuwlpjeykmnjbwkuoukmamjeippdplmfoeasvdmfyigvamineqnjavihyhasxwqupbymnjzemzdhosquplaqvpjakucivagb"
+ciphertext_know ="aznrkuwlpjeykmnjbwkuoukmamjeippdplmfoeasvdmfyigvamineqnjavihyhasxwqupbymnjzemzdhosquplaqvpjakucivagb"
+ciphertext = "wdzcpeoqeghladmuoqmuupucrqiwyengiqhlgtatkqldmvjgmvdelcxzkqvgbqnqliialniuualqauoawcanpepaauucbepvadfe"
 num_results = 100
 
 results = rank_keys(ciphertext, num_results)
